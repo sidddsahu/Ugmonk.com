@@ -1,0 +1,326 @@
+@media (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+  #main{
+    overflow-x: hidden;
+  }
+  
+  .nav {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .go{
+    align-items: center;
+  }
+
+ #main-nav .head h2{
+    font-size: .9rem;
+  }
+
+  
+.ri-menu-line{
+  display: initial;
+  font-size: 1.5rem;
+}
+
+  .ready .ugmonk {
+    font: 600 1.5rem "leiko";
+  }
+
+  .ri-user-fill,
+  .ri-search-line {
+    display: none;
+  }
+
+  .ready .analog,
+  .analogy,
+  .analogyy,
+  .ango {
+    display: none;
+  }
+
+  .ready .ugmonk {
+    display: initial;
+  }
+
+  .page1-main {
+    /* padding: ; */
+    /* background-position: righ; */
+    background-size: cover;
+  }
+
+  .page1-bottom {
+    width: 150vw;
+    padding: 0 5vw;
+    overflow: scroll;
+  }
+
+  #page2 {
+    /* background-color: green; */
+    height: 490vh;
+  }
+
+  .page2-main {
+    height: 455vh;
+    width: 95vw;
+  }
+
+  .page2-child {
+    flex-wrap: wrap;
+    width: 95vw;
+    margin: auto;
+    height: 95vh;
+  }
+
+  .recharge{
+    width: 45vw;
+    height: 30vh;
+    /* background-color: ; */
+  }
+  .page2-child-box {
+    /* background-color: red; */
+    height: 42vh;
+    width: 45vw;
+
+  }
+
+  .page2-button {
+    height: 10vh;
+    width: 95vw;
+  }
+
+  .shop h1 {
+  font: 400 1.2rem "roboto";
+
+  }
+
+  #page3 {
+    padding-top: 5vh;
+    height: 85vh;
+    /* background-color: red; */
+  }
+
+  .page3-main {
+    height: 85vh;
+    width: 90vw;
+  }
+
+  .page3-main-box {
+    margin: auto;
+    height: 15vh;
+    width: 90vw;
+  }
+
+  .page3-main h1 {
+  font: 600 2rem "leiko";
+  }
+
+  .page3-main h4 {
+  font: 300 1.1rem "roboto";
+  }
+
+  #page4 {
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .page4-main {
+    flex-direction: column;
+    width: 90vw;
+    /* background-color: aqua; */
+  }
+
+  .page4-left {
+    width: 90vw;
+    /* background-color: red; */
+    padding: 0vmax 0vmax;
+  }
+
+  .page4-right {
+    width: 90vw;
+  }
+
+  #page5 {
+    padding-top: 1vh;
+    height: 320vh;
+    /* background-color: blue; */
+  }
+
+  .page5-main {
+    height: 300vh;
+    width: 90vw;
+  }
+
+  .page5-main h1 {
+  font: 700 2rem "leiko";
+  }
+
+  .page5-top {
+    flex-direction: column;
+    width: 90vw;
+    height: 150vh;
+    /* background-color:aqua ; */
+  }
+
+  .page5-top-left {
+    width: 90vw;
+    height: 75vh;
+  }
+
+  .page5-top-left-image {
+    height: 50vh;
+    width: 90vw;
+  }
+
+  .reeves {
+    width: 90vw;
+  }
+
+  .page5-top-right {
+    height: 75vh;
+    width: 90vw;
+  }
+
+  .page5-top-left-image1 {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  
+  .page5-top-left-image2 {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .page5-top-left-image3 {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  #page6 {
+    height: 110vh;
+
+  }
+
+  .page6-main {
+    width: 90vw;
+    height: 90vh;
+    flex-direction: column;
+  }
+
+  .page6-left {
+    height: 50vh;
+    width: 85vw;
+  }
+
+  .page6-right {
+    padding-left: 0;
+    /* align-items: center; */
+    width: 85vw;
+  }
+
+  .page6-right h1 {
+  font: 600 2rem "leiko"; 
+  }
+
+  .page6-right button {
+    margin-top: 1vmax;
+    width: 250px;
+  }
+
+  #page7 {
+    height: 80vh;
+  }
+  #page7 .page4-right {
+    width: 90vw;
+  }
+
+  #page8 {
+    height: 115vh;
+    /* background-color: blue; */
+  }
+
+  .page8-main {
+    height: 109vh;
+    width: 90vw;
+    /* background-color: green; */
+  }
+
+  .page8-main-bottom button {
+    padding: 1.3vmax 3.5vmax;
+  }
+
+  .page8-main-bottom {
+    height: 40vh;
+  }
+
+  .page8-main-image {
+    height: 70vh;
+    width: 90vw;
+  }
+
+  .page8-main-bottom {
+    width: 90vw;
+  }
+
+  
+.page8-main-bottom h1 {
+  font: 600 1.8rem "leiko";
+  align-items: flex-start;
+
+}
+
+.page9-top {
+height: 50vh;
+}
+
+.page9-top p {
+  width: 80vw;
+}
+
+.page9-top input {
+  width: 300px;
+  margin-bottom: 2vmax;
+}
+
+.page9-top button {
+  width: 300px;
+
+}
+
+
+.page9-bottom {
+  height: 40vh;
+  flex-direction: column;
+}
+
+.page9-bottom-left {
+  height: 40vh;
+  width: 90vw;
+}
+
+.page9-box {
+  width: 40vw;
+}
+
+.page9-bottom-right {
+  height:40vh;
+  width: 80vw;
+}
+
+.page9-top-right-image {
+  width: 35vw;
+}
+
+.instagram {
+  justify-content: center;
+  align-items: center;
+  margin-left: 25vw;
+
+}
+
+
+}

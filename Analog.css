@@ -1,0 +1,513 @@
+.container {
+  height: 125vh;
+  width: 100vw;
+  /* background-color: red; */
+}
+
+.container-main-top {
+  position: relative;
+  height: 75vh;
+  width: 100vw;
+  /* background-color: purple; */
+}
+
+.container-main-top video {
+  object-fit: cover;
+  height: 75vh;
+  width: 100vw;
+}
+
+.container-main-top-child {
+  position: absolute;
+  top: 27%;
+  left: 22%;
+  height: 30vh;
+  width: 35vw;
+  /* background-color: rgb(225, 216, 33); */
+}
+
+.container-main-top-child h1 {
+  font: 600 2.2rem "leiko";
+}
+
+.container-main-top-child p {
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+  font: 300 1rem "robto";
+  width: 22vw;
+}
+
+.container-main-top-child button {
+  font-size: 0.8rem;
+  background-color: #f4d883;
+  padding: 0.6vmax 1.2vmax;
+  border-radius: 25px;
+  border: 1px solid black;
+  transition: 0.3 ease;
+}
+
+.container-main-top-child button:hover {
+  background-color: #e9c559;
+}
+
+.container-main-top-child .btn-how {
+  background-color: transparent;
+  border: 1px solid black;
+  color: #000;
+  margin-left: 1vmax;
+  transition: 0.3 ease;
+}
+
+.container-main-top-child .btn-how:hover {
+  background-color: #fff;
+}
+
+.container-main-bottom {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eae7d9;
+  /* background-color: green; */
+}
+
+.container-main-bottom h1 {
+  font: 600 2rem "leiko";
+  margin-bottom: 1vmax;
+}
+
+.container-main-bottom p {
+  width: 30vw;
+  /* line-height: 35px; */
+  text-align: center;
+  font: 400 1rem "mukta";
+  margin-bottom: 1vmax;
+}
+
+.container-main-bottom .josh {
+  display: flex;
+  align-items: center;
+}
+
+.container-main-bottom small {
+  font: 400 1rem "gilroy";
+  margin-left: 1vmax;
+}
+
+.container-last {
+  height: 10vh;
+  background-color: #7e6e45;
+
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.container-last h3 {
+  font: 400 1.2rem "gilroy";
+  margin-right: 5vmax;
+}
+
+.container-last img {
+  margin-right: 1.5vmax;
+}
+
+/* -----------------===========CAONTainer-2===============---------------------------- */
+
+.container-2 {
+  height: 140vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.container-2-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100vw;
+  /* background-color: gray; */
+}
+
+.container-2-child h1 {
+  font: 600 2rem "leiko";
+}
+
+.container-2-child p {
+  margin-top: 1vmax;
+  font: 300 0.9rem "gilroy";
+  width: 20vw;
+  text-align: center;
+}
+
+.container2-main {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+  position: relative;
+  margin-right: auto;
+  /* background-color: blueviolet; */
+}
+
+.container2-main .work {
+  top: 50%;
+  left: 50%;
+  padding: 0.7vmax 2vmax;
+  border-radius: 25px;
+  background-color: #f4d883;
+  border: 1px solid black;
+  position: absolute;
+  transition: 0.3 ease;
+}
+
+.container2-main .work:hover {
+  background-color: #efc23e;
+}
+
+.container2-main video {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+  object-fit: cover;
+}
+
+/* -----------------===========CAONTainer-3===============---------------------------- */
+
+.container3 {
+  padding: 10vh 5vw;
+  height: 160vh;
+  width: 100vw;
+  background-color: #eae7d9;
+}
+.container3 h1 {
+  font: 600 2rem "leiko";
+  text-align: center;
+}
+
+.container3-main {
+  display: flex;
+  margin-top: 3vmax;
+  height: 120vh;
+  width: 90vw;
+  /* background-color: green; */
+}
+
+.container3-main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 32vw;
+  height: 105vh;
+  /* background-color: yellow; */
+}
+
+.container3-main-left h5 {
+  font: 400 1.1rem "gillroy";
+  margin-bottom: 2vmax;
+}
+
+.container3-main-left-box {
+  margin-bottom: 2.5vmax;
+  width: 35vw;
+  display: flex;
+  align-items: center;
+}
+
+.container3-main-left-box .lining {
+  z-index: 5555;
+  width: 7vw;
+  margin-left: 2vmax;
+  height: 1px;
+  background-color: black;
+}
+
+.container3-main-left p {
+  width: 20vw;
+  font: 300 0.9rem "roboto";
+  margin-bottom: 2vmax;
+}
+
+.container3-main-center {
+  width: 28vw;
+  height: 120vh;
+  /* background-color: grey; */
+}
+
+.container3-main-left-box .linings {
+  z-index: 5888855;
+  width: 7vw;
+  height: 1px;
+  margin-right: 2vmax;
+  background-color: black;
+}
+
+.container3-main-right .container3-main-left-box p {
+  width: 20vw;
+  margin-left: 0vmax;
+}
+
+.click {
+  margin-top: 47vh;
+}
+
+.container3-main-right h5 {
+  margin-top: 8vmax;
+  margin-left: 10vw;
+  font: 400 1.1rem "roboto";
+  margin-bottom: 2vmax;
+}
+
+.container3-main-right {
+  width: 30vw;
+  height: 120vh;
+  /* background-color: aqua; */
+}
+
+.container3-main-center-image {
+  position: relative;
+  width: 28vw;
+  height: 110vh;
+}
+
+.container3-main-center-image img {
+  position: absolute;
+  /* padding-top: 2vmax; */
+  width: 100%;
+  height: 100%;
+  transition: 0.8s ease;
+}
+
+.container3-main-center-image img:hover {
+  transform: scale(1.05);
+}
+
+.container3-main-center-image .second-image {
+  /* margin-top: 3vh; */
+  top: 6%;
+  right: 7%;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  transition: 0.8s ease;
+}
+
+.container3-main-center-image .second-image:hover {
+  transform: scale(1.05);
+}
+
+.container3-main-center-image .third-image {
+  /* margin-top: 3vh; */
+  top: 12%;
+  right: 14%;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container3-main-center-image .third-image:hover {
+  transform: scale(1.05);
+}
+
+/* -----------------===========CAONTainer-4===============----------------------- */
+.container4 {
+  height: 125vh;
+  width: 100vw;
+  background-color: #f4f1e5;
+}
+
+.container4-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 37vh;
+  width: 100vw;
+  margin-bottom: 1vmax;
+ 
+}
+
+.container4-child p {
+  font: 300 1rem "mukta";
+  margin: 1vmax 0vmax;
+  width: 30vw;
+  text-align: center;
+}
+
+.container4-child h1 {
+    margin-top: 10vh;
+  font: 600 2.1rem "leiko";
+}
+
+.container4-child button {
+  padding: 0.6vmax 1.5vmax;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-right: 1vmax;
+}
+
+.container4-child button:hover {
+  color: #fff;
+  background-color: rgb(67, 67, 67);
+}
+
+.container4-child .btn-move {
+  background-color: #edd17e;
+  transition: 0.3s ease;
+}
+
+.container4-child .btn-move:hover {
+  border: none;
+  color: black;
+  background-color: #e3bf54;
+}
+
+.container4-main{
+    /* margin-top: 2vmax; */
+    height: 40vh;
+    width: 60vw;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+/* -----------------===========CAONTainer-5===============----------------------- */
+
+.container5{
+  height: 230vh;
+  width: 100vw;
+  /* background-color: red; */
+  padding: 10vh 0;
+}
+
+.container5-child{
+  height: 25vh;
+  width: 100vw;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container5-child h1{
+  font: 600 2.1rem "leiko";
+
+}
+
+.container5-child p{
+  margin-top: 1vmax;
+width: 25vw;
+font: 300 1rem "mukta";
+text-align: center;
+}
+
+.container5-main{
+  height: 195vh;
+  width: 80vw;
+  /* background-color: green; */
+  margin: auto;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.container5-top{
+  height: 65vh;
+  width: 70vw;
+  margin: auto;
+  display:flex ;
+  /* background-color: palevioletred; */
+}
+
+.container5-top-left{
+  height: 50vh;
+  width: 20vw;
+  /* background-color: greenyellow; */
+}
+
+.container5-top-left h2{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 1vmax;
+  text-align: center;
+  /* padding: .5vmax; */
+  border: 1px solid black;
+}
+
+.container5-top-left p{
+  margin-top: .5vmax;
+  font: 300 1rem "roboto";
+  width: 15vw;
+}
+.container5-top-right{
+  width: 40vw;
+  height: 50vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/card-stack-1_3c71e39e-88e1-4cfc-a144-8c1d3b521568_1200x.gif?v=1614324629);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+}
+
+.container5-top-right1{
+  width: 40vw;
+  height: 50vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/planners_8041c241-ef76-48b9-803e-c62999784b48_1200x.gif?v=1614324629);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+}
+
+
+
+.container5-top-right2{
+  width: 40vw;
+  height: 50vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/magnet-combo3_7f18c3a3-b696-4561-a731-db7fdc14a4b5_1200x.gif?v=1614324629);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-position: center;
+}
+
+/* -----------------===========Container6======================---------- */
+.container6{
+  height: 115vh;
+  width: 100vw;
+  background-color: #f2eddb;
+}
+
+.container6-child{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 28vw;
+}
+.container6-child h1{
+  font: 500 3rem "leiko";
+  margin-bottom: 1vmax;
+}
+
+.container6-child p{
+  font: 300 1.1rem "roboto" ;
+  text-align: center;
+}
+
+.container6-main{
+  height: 75vh;
+  width: 60vw;
+  margin: auto;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/task-signal-gif_1800x.gif?v=1614325195);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,95 @@
+.content{
+    height: 30vh;
+    width: 100vw;
+    /* background-color: blue; */
+}
+.content-main{
+    width: 50vw;
+height: 30vh;
+margin-left: 16vw;
+/* background-color: aqua; */
+}
+
+.content-main p{
+    margin-top: 2vmax;
+    font: 300 1rem "roboto";
+    margin-bottom: 1.5vmax;
+}
+
+.content-main p span{
+    color: rgb(129, 129, 129);
+}
+
+.content-main h1{
+    font: 500 3rem "leiko";
+    margin-bottom: 1.5vmax;
+}
+
+.content-main input{
+    width: 450px ;
+    height: 45px;
+    padding-left: 10px;
+     /* outline: none; */
+     border: 1px solid rgb(135, 133, 133);
+     font: 500 1.1rem "roboto";
+
+}
+.content-main button{
+    padding: .5vmax 1.5vmax;
+    background-color: rgb(16, 15, 15);
+    color: #fff;
+    font: 300 1.2rem "roboto";
+    border-radius: 30px;
+}
+
+.section{
+    height: 35vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+}
+.section-main{
+    width: 20vw;
+    height: 35vh;
+    /* margin-left: 16vw; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-main a{
+    font: 500 1rem "roboto";
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1vmax;
+}
+
+.section-main h1{
+ font: 600 2rem "leiko";
+ margin-bottom: 1vmax;
+}
+
+.section-main input{
+    border: 2px solid rgb(121, 119, 119);
+
+    padding: .5vmax 5px;
+    font-size: 1.1rem;
+    border-radius: 5px ;
+    margin-bottom: .5vmax;
+    margin-top: .3vmax;
+    outline: none;
+}
+
+.section-main label{
+    font: 300 1rem "roboto";
+
+}
+
+.section-main button{
+    padding: .7vmax 5px;
+    border-radius: 5px;
+    font: 500 1rem "roboto";
+    background-color: black;
+    color: #fff;
+
+
+}

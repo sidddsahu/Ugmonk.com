@@ -1,0 +1,1781 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#main{
+  overflow-x: hidden;
+}
+
+.cart-section{
+  height: 100vh;
+  width: 25vw;
+  /* opacity: 0; */
+transform: translateY(-200%);
+  /* transition: 1s ease; */
+  right: 0%;
+  position: absolute;
+  z-index: 10000000000000000;
+  background-color: #fff;
+}
+
+.cart-section-main{
+  padding: 1vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-section-main h5{
+  font: 400 1.1rem "roboto";
+  margin-bottom: 3vmax;
+}
+
+
+.cart-section-main  span{
+  margin-right: 2vmax;
+font: 600 1.5rem "leiko";
+}
+.cart-section-main h1{
+  font: 500 1.5rem "roboto";
+  margin-left: 2vmax;
+  margin-bottom: 3vmax;
+
+}
+
+.cart-section-main h6{
+  font: 300 1rem "roboto";
+  margin-bottom: 2vmax;
+
+}
+
+.cart-section-image{
+  height: 28vh;
+  width: 23vw;
+  display: flex;
+  margin-bottom: 2vmax;
+  /* background-color: red; */
+}
+
+.cart-section-image .cart-image{
+  height: 28vh;
+  width: 11vw;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/analog-starter-kit-walnut_c38a934f-1f7b-4ad0-824a-953fe7c83f73.jpg?crop=center&height=400&v=1645915931&width=400);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 1vmax;
+}
+
+
+.cart-section-image .cart-image1{
+  height: 28vh;
+  width: 11vw;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/pen-tray-walnut-ls-41_1480x1836_crop_center_7d1a9040-528c-4be4-8651-2c788db22900.jpg?crop=center&height=400&v=1647192165&width=400);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cart-section-main h2{
+  font: 300 1.2rem "roboto";
+  margin-bottom: 1vmax;
+
+}
+
+.cart-section-main p{
+  font: 300 1rem "roboto";
+  text-align: center;
+  margin-bottom: 3.5vmax;
+}
+
+.cart-section-main button{
+  width: 440px;
+  height: 45px;
+  font: 300 1rem "roboto";
+  border-radius: 25px;
+  border: 1px solid black;
+  margin-bottom: .5vmax;
+}
+
+.cart-section-main .cart-btn{
+  background-color: #f7d275;
+}
+
+.cart-section-main .cart-btn:hover{
+  background-color: #f7d275;
+  border: none;
+  color: #2c2c2c;
+  
+
+
+}
+
+.cart-section-main button:hover{
+background-color: rgb(43, 40, 40);
+color: #fff;
+font-weight: 400;
+}
+
+#main {
+  overflow-x: hidden;
+}
+
+#main-nav {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main-nav .head {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d2e1c7;
+}
+
+.nav {
+  z-index: 100000;
+  /* position: fixed; */
+  left: 15vw;
+  top: 10%;
+  background-color:  #fff;
+  /* position: relative; */
+  height: 5vh;
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ri-menu-line {
+  display: none;
+}
+
+.ready {
+  display: flex;
+  align-items: center;
+}
+
+.ready .ugmonk {
+  letter-spacing: 3px;
+  margin-right: 2vmax;
+  font: 400 2.5rem "leiko";
+}
+
+.ready a {
+  color: black;
+  cursor: pointer;
+  /* max-width: 0 1vmax; */
+  margin: 0 1.3vmax;
+  text-decoration: none;
+  font: 400 1rem "roboto";
+}
+
+.ready .anlog {
+  display: flex;
+  align-items: flex-start;
+}
+
+.go {
+  display: flex;
+}
+
+.go a {
+  color: black;
+  cursor: pointer;
+  margin: 0 0.8vmax;
+  text-decoration: none;
+  font: 500 1.2rem "roboto";
+}
+
+.go .shop {
+  font: 300 0.8rem "robto";
+  padding: 0.4vmax 1vmax;
+  border-radius: 15px;
+  background-color: #d5e1cc;
+  border: 1px solid black;
+}
+
+#main-nav .head h2 {
+  font: 300 1rem "roboto";
+}
+
+/* ---------------------------------------------Nav.1----------------------------------- */
+
+.analog {
+  margin-top: 2vmax;
+  /* background-color: red; */
+  height: 7vh;
+  /* width: 100vw;  */
+  /* position: relative; */
+}
+
+.nav-one {
+  right: -900%;
+  top: 100%;
+  display: flex;
+  position: absolute;
+  margin-left: 10vw;
+  box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
+  /* transform: translateY(-140%); */
+  height: 55vh;
+  width: 68vw;
+  margin: auto;
+  padding: 1vmax;
+  background-color: #fff;
+}
+
+.nav-box {
+  margin-right: 1vmax;
+  width: 24vw;
+  height: 51vh;
+  /* background-color: red; */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 0 1vmax;
+  justify-content: center;
+}
+
+.navbar h1 {
+  font: 500 1.5rem "gilroy";
+}
+
+.navbar p {
+  font: 300 0.8rem "roboto";
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+}
+
+.navbar button {
+  border-radius: 0.5px solid rgb(20, 20, 20);
+  padding: 0.7vmax;
+  outline: none;
+  border-radius: 25px;
+}
+
+.navbar1 {
+  padding: 0.5vmax;
+  background-image: url(/images/4.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar1 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #f7d275;
+  border-radius: 25px;
+}
+
+.navbar2 {
+  width: 25;
+  /* padding: .5vmax; */
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/pen-tray-walnut-ls-40.jpg?v=1632240403&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar2 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+/* -------------------------------------------nav1.1-------------------------------- */
+
+.analogy {
+  margin-top: 2vmax;
+  height: 7vh;
+}
+
+.nav-two {
+  right: -720%;
+  top: 100%;
+  display: flex;
+  position: absolute;
+  margin-left: 10vw;
+  box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
+  height: 55vh;
+  width: 68vw;
+  margin: auto;
+  padding: 1vmax;
+  background-color: #fff;
+}
+
+.navbar3 {
+  padding-left: 2vmax;
+  /* background-color: green; */
+  margin-right: 1vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 0 2vmax;
+  justify-content: center;
+}
+
+.navbar3 li {
+  margin-bottom: 0.8vmax;
+  font: 400 1.1rem "roboto";
+  list-style: none;
+}
+
+.navbar4 {
+  padding: 0.5vmax;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/essential-model-86_1200x_6966ab58-83a2-43a5-93d7-0032137e54e0.jpg?v=1646603471&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar4 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.navbar5 {
+  padding: 0.5vmax;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/black-8_1200x_bd1970a8-eb9b-4a97-997f-9d36c63d5324.jpg?v=1646603496&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar5 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+/* ------------------------------Nav 1.2--------------------------------------------- */
+
+.analogyy {
+  margin-top: 2vmax;
+  height: 7vh;
+}
+
+.nav-three {
+  right: -706%;
+  top: 100%;
+  display: flex;
+  position: absolute;
+  margin-left: 10vw;
+  box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
+  height: 55vh;
+  width: 68vw;
+  margin: auto;
+  padding: 1vmax;
+  background-color: #fff;
+}
+
+.navbar6 {
+  padding: 0.5vmax;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/logo-mp-natural-xl-2_1480x1836_crop_center_1683b5a5-91ed-4832-a267-99f0d5252a84.jpg?v=1647275771&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar6 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.navbar7 {
+  padding: 0.5vmax;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/hasami-ls-40_1480x1836_crop_center_f33093a0-562b-4de6-89fe-17b8f6c62298.jpg?v=1647275709&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar7 button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  color: #fff;
+}
+
+/* ----------------------------------------#PAGE1------------------------------------- */
+
+#page1 {
+  height: 90vh;
+  width: 100vw;
+}
+
+.page1-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 2% 9%;
+  /* margin-top: 10vh; */
+  height: 75vh;
+  width: 100vw;
+  cursor: pointer;
+  /* background-color: blue; */
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/gather-hero-home-page-4.jpg?v=1665688433&width=3000);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page1-main h1 {
+  color: rgb(241, 238, 238);
+  font: 600 2rem "leiko";
+}
+
+.page1-main .page1-btn {
+  cursor: pointer;
+  width: 250px;
+  height: 45px;
+  margin-top: 1vmax;
+  border-radius: 25px;
+  font: 300 1rem "roboto";
+  background-color: #ffd160;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.page1-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  width: 60vw;
+  margin: auto;
+  color: rgb(83, 83, 83);
+  /* background-color: #FFD160; */
+}
+
+.best {
+  color: black;
+  text-decoration: underline;
+}
+.page1-bottom h5 {
+  font: 500 1.1rem "gilroy";
+}
+
+.page1-bottom h5:hover {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+  /* font: 500 1.1rem "gilroy"; */
+}
+
+/* ----------------------------------------#page2---------------------------- */
+
+#page2 {
+  height: 310vh;
+  width: 100vw;
+}
+
+.page2-main {
+  height: 310vh;
+  width: 80vw;
+  /* background-color: blueviolet; */
+  margin: auto;
+}
+
+.page2-child {
+  height: 57vh;
+  width: 80vw;
+  display: flex;
+  /* background-color: brown; */
+}
+
+.page2-child-box {
+  position: relative;
+  height: 57vh;
+  width: 19vw;
+  margin-right: 1vmax;
+  /* background-color: yellow; */
+}
+
+.page2-child-box .btn {
+  margin: 5px 5px;
+  border-radius: 10px;
+  padding: 4px 10px;
+  border: none;
+  background-color: #d9e2c3;
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+  font: 400 0.6rem "roboto";
+}
+
+.page2-child-box-image {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/analog-bg-gray-complete-kit2_400x.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  /* background-color: gray; */
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image:hover {
+  /* z-index: 0; */
+  opacity: 0;
+}
+
+.page2-child-box-image1 {
+  /* position: absolute; */
+  height: 45vh;
+  width: 19vw;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/pen-tray-walnut-ls-18_400x.jpg?v=1642449961");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  /* background-color: cadetblue; */
+}
+
+.page2-child-box h3 {
+  margin-top: 0.5vmax;
+  font: 400 1rem "roboto";
+}
+
+.page2-child-box p {
+  margin-top: 0.5vmax;
+  color: red;
+}
+
+.page2-child-box p span {
+  text-decoration: line-through;
+  color: rgb(131, 131, 131);
+}
+
+.page2-child-box-image2 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/analog-bg-gray-kit_400x.jpg?v=1654100462");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image2:hover {
+  /* z-index: 0; */
+  opacity: 0;
+}
+
+.page2-child-box-image3 {
+  cursor: pointer;
+  height: 45vh;
+  width: 19vw;
+  background-image: url("/images/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page2-child-box-image4 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image4:hover {
+  /* z-index: 0; */
+  opacity: 0;
+}
+
+.page2-child-box-image5 {
+  cursor: pointer;
+  height: 45vh;
+  width: 19vw;
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/maple-ls-14_400x.jpg?v=1634062452");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page2-child-box-image6 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/cdt-pen-main-new_400x.jpg?v=1650056000");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image6:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image7 {
+  cursor: pointer;
+  height: 45vh;
+  width: 19vw;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/CDT-pen-ls-3b_400x.jpg?v=1650296861");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page2-child-box-image8 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/black-gadget-1_400x.jpg?v=1668010759");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image8:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image9 {
+  cursor: pointer;
+  height: 45vh;
+  width: 19vw;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/hightide-pouch-ls-16_400x.jpg?v=1668024190");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page2-child-box-image10 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/10.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image10:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image11 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/hightide-pouch-ls-5_400x.jpg?v=1668023379");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.page2-child-box-image12 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/khaki-pen-1_400x.jpg?v=1668021777");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image12:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.page2-child-box-image13 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/hightide-pouch-ls-1_400x.jpg?v=1668023092");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image14 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/14.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image14:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.page2-child-box-image15 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("/images/15.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image16 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/bundle-brown-brass_400x.jpg?v=1622566122");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image16:hover {
+  opacity: 0;
+}
+
+.page2-child-box-image17 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("/images/17.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image18 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/journal-black-2_400x.jpg?v=1637615308");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image18:hover {
+  opacity: 0;
+}
+
+.page2-child-box-image19 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/ls-7_400x.jpg?v=1637615308	");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image20 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/valet-walnut-bundle_400x.jpg?v=1648736301");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image20:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image21 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("/images/21.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image22 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/valet-maple-med-1_400x.jpg?v=1636495414");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image22:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image23 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("/images/24.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image24 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/valet-walnut-lrg_400x.jpg?v=1635956064");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image24:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image25 {
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/ls-valet-1-1_400x.jpg?v=1636581989");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image26 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/26th.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image26:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image27 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("/images/27.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image28 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/pen-tray-walnut-1g_400x.jpg?v=1638372642");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image28:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image29 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/pen-tray-walnut-ls-41_400x.jpg?v=1638372642");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image30 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/lemnos-plywood-1_400x.jpg?v=1667577188");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image30:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image31 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/lemnos-ls-13_400x.jpg?v=1667577711");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image32 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/lemnos-gray-1_400x.jpg?v=1667577897");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image32:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image33 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/lemnos-ls-9_400x.jpg?v=1667577952");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image34 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/32.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image34:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.page2-child-box-image35 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("	https://cdn.shopify.com/s/files/1/0167/4484/products/lemnos-ls-1_400x.jpg?v=1667858970");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  /* background-color: gray; */
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.page2-child-box-image36 {
+  position: absolute;
+  z-index: 1;
+  background-image: url("/images/36.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  /* background-color: gray; */
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.page2-child-box-image36:hover {
+  /* z-index: 0; */
+  opacity: 0;
+  cursor: pointer;
+}
+
+.page2-child-box-image37 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  background-image: url("/images/37.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  /* background-color: gray; */
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.page2-child-box-image38 {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/enjoy-brown-1_400x.jpg?v=1572401733");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  /* background-color: gray; */
+  transition: 0.3s ease-in;
+}
+
+.page2-child-box-image38:hover {
+  /* z-index: 0; */
+  opacity: 0;
+}
+
+.page2-child-box-image39 {
+  /* position: absolute; */
+  /* z-index: 1; */
+  cursor: pointer;
+  background-image: url("https://cdn.shopify.com/s/files/1/0167/4484/products/coffee-ls-24_400x.jpg?v=1572401733");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 19vw;
+  /* background-color: gray; */
+  transition: 0.3s ease-in;
+}
+
+.page2-button {
+  height: 25vh;
+  width: 80vw;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding: 15px 35px;
+  background-color: #ffd160;
+  /* justify-content: center; */
+  border: 1px solid black;
+}
+
+.shop h1 {
+  margin-right: 0.3vmax;
+  font: 400 1.4rem "roboto";
+}
+
+/* -----------------------------------------------Page3------------------------------ */
+
+#page3 {
+  padding-top: 20vh;
+  height: 160vh;
+  width: 100vw;
+  background-color: #f8f6f2;
+}
+
+.page3-main {
+  height: 120vh;
+  width: 80vw;
+  margin: auto;
+  /* background-color: green; */
+}
+
+.page3-main h1 {
+  margin-bottom: 2vmax;
+  font: 600 2.5rem "leiko";
+  text-align: center;
+}
+
+.page3-main-box {
+  position: relative;
+  height: 30vh;
+  width: 80vw;
+}
+
+.page3-main-box img {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page3-main h4 {
+  margin-top: 0.5vmax;
+  margin-bottom: 1vmax;
+  font: 300 1.2rem "roboto";
+  text-decoration: underline;
+}
+
+/* ------------------------------------------Page4------------------------------------- */
+
+#page4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+}
+
+.page4-main {
+  display: flex;
+  height: 65vh;
+  width: 75vw;
+  /* background-color: green; */
+}
+
+.page4-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 65vh;
+  width: 25vw;
+  padding: 0 5vmax;
+  background-color: #f4f0e8;
+}
+
+.page4-left h1 {
+  font: 400 2rem "gilroy";
+  margin-bottom: 1.5vmax;
+}
+
+.page4-left p {
+  font: 200 1rem "gilroy";
+  margin-bottom: 1.5vmax;
+}
+
+.page4-left h2 {
+  font: 200 1.1rem "gilroy";
+  margin-bottom: 1vmax;
+  text-decoration: underline;
+}
+
+.page4-right {
+  height: 65vh;
+  width: 50vw;
+  cursor: pointer;
+  /* background-color: aqua; */
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/ricebowls-4_1200x.jpg?v=1637690473);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ---------------------------------------#Page5-------------------------------------- */
+
+#page5 {
+  padding-top: 15vh;
+  height: 225vh;
+  width: 100vw;
+  background-color: #f4f0e8;
+}
+
+.page5-main {
+  margin: auto;
+  height: 200vh;
+  width: 75vw;
+}
+
+.page5-main h1 {
+  text-align: center;
+  margin-bottom: 1.5vmax;
+  font: 700 2.3rem "leiko";
+}
+
+.page5-top {
+  display: flex;
+  height: 94vh;
+  width: 75vw;
+  /* background-color: green; */
+}
+
+.page5-top-left {
+  padding-top: 3vh;
+  margin-right: 2vmax;
+  height: 90vh;
+  width: 37vw;
+  background-color: #fff;
+}
+
+.reeves {
+  height: 27vh;
+  margin: auto;
+  width: 34vw;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reeves p {
+  margin-top: 1vmax;
+  margin-bottom: 0.5vmax;
+  font: 300 0.9rem "roboto";
+}
+
+.reeves h2 {
+  /* margin-top: .5vmax; */
+  margin-bottom: 1.5vmax;
+  font: 400 1rem "roboto";
+  text-align: center;
+}
+
+.reeves button {
+  cursor: pointer;
+  padding: 1vmax 3vmax;
+  background-color: rgb(19, 19, 19);
+  border-radius: 25px;
+  color: #fff;
+}
+
+.page5-top-left-image {
+  /* margin-top: 1vmax; */
+  height: 60vh;
+  width: 34vw;
+  cursor: pointer;
+  /* background-color: #FFD160; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/chase-reeves-review.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page5-top-left-image img {
+  background-color: rgba(250, 250, 242, 0.7);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.page5-top-right {
+  padding-top: 3vh;
+  height: 90vh;
+  width: 37vw;
+  background-color: #fff;
+}
+
+.page5-top-left-image1 {
+  /* margin-top: 1vmax; */
+  height: 60vh;
+  width: 34vw;
+  background-color: #ffd160;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/two.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.page5-top-left-image1 img {
+  background-color: rgba(250, 250, 242, 0.7);
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.page5-top-left-image2 {
+  /* margin-top: 1vmax; */
+  height: 60vh;
+  cursor: pointer;
+  width: 34vw;
+  background-color: #ffd160;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/three.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page5-top-left-image2 img {
+  cursor: pointer;
+  background-color: rgba(250, 250, 242, 0.7);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.page5-top-left-image3 {
+  /* margin-top: 1vmax; */
+  height: 60vh;
+  width: 34vw;
+  background-color: #ffd160;
+  margin: auto;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/four.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page5-top-left-image3 img {
+  cursor: pointer;
+  background-color: rgba(250, 250, 242, 0.7);
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* ---------------------------------#Page6------------------------------------ */
+
+#page6 {
+  padding-top: 10vh;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: aqua; */
+}
+
+.page6-main {
+  border: 1px solid black;
+  padding: 1vmax 1.5vmax;
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  /* background-color: red; */
+}
+
+.page6-left {
+  border: 1px solid black;
+  margin-right: 1vmax;
+  height: 75vh;
+  width: 38vw;
+  cursor: pointer;
+  /* background-color: chartreuse; */
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/starter-kit-plain-new-small.jpg?crop=center&height=1000&v=1647354196&width=1000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page6-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3vmax;
+  height: 75vh;
+  width: 38vw;
+  /* background-color: grey; */
+}
+
+.page6-right h1 {
+  font: 600 2.5rem "leiko";
+  margin-bottom: 2vmax;
+}
+
+.page6-right li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 1vmax;
+  font: 300 1rem "roboto";
+  /* text-align: center; */
+}
+
+.page6-right button {
+  height: 45px;
+  font-size: 1rem;
+  width: 500px;
+  margin-bottom: 1vmax;
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: #f7d275;
+}
+
+.page6-right button:hover {
+  background-color: #ffd160;
+  border: none;
+}
+
+.page6-right p {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0.5vmax;
+  font: 300 1rem "roboto";
+}
+
+.page6-right li span {
+  margin-right: 0.5em;
+}
+
+#page7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ced3ca;
+}
+
+#page7 .page4-left {
+  background-color: #fff;
+}
+
+#page7 .page4-right {
+  height: 65vh;
+  width: 50vw;
+  cursor: pointer;
+  /* background-color: aqua; */
+  background-image: url(/images/tata.webp);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#page8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160vh;
+  width: 100vw;
+  background-color: #f4f0e8;
+}
+
+.page8-main {
+  /* background-color: red; */
+  height: 135vh;
+  width: 80vw;
+}
+
+.page8-main-image {
+  cursor: pointer;
+  height: 100vh;
+  margin: auto;
+  width: 80vw;
+  cursor: pointer;
+  background-image: url(https://cdn.shopify.com/s/files/1/0167/4484/files/jeff-writing_1800x_copy_1800x.jpg?v=1659117265);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.page8-main-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  margin: auto;
+  width: 40vw;
+  /* background-color: aqua; */
+}
+
+.page8-main-bottom h1 {
+  margin-bottom: 1vmax;
+  font: 600 2rem "leiko";
+  text-align: center;
+}
+
+.page8-main-bottom button {
+  cursor: pointer;
+  padding: 0.8vmax 2vmax;
+  background-color: rgb(25, 25, 25);
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+}
+
+#page9 {
+  height: 110vh;
+  width: 100vw;
+  /* background-color: red; */
+}
+
+.page9-main {
+  height: 110vh;
+  width: 100vw;
+  /* margin: auto; */
+  /* border-color: aquamarine; */
+}
+
+.page9-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 100vw;
+  background-color: #ced3ca;
+}
+
+.page9-top h1 {
+  font: 600 2rem "leiko";
+  margin-bottom: 1.5vmax;
+}
+
+.page9-top p {
+  font: 300 1.1rem "roboto";
+  width: 30vw;
+  text-align: center;
+  margin-bottom: 2.5vmax;
+}
+
+.page9-top input {
+  height: 50px;
+  border: 1px solid black;
+  padding: 0 1vmax;
+  width: 400px;
+  font: 300 1rem "roboto";
+  /* width: 30vw; */
+  /* text-align: center; */
+  margin-bottom: 1vmax;
+}
+
+.page9-top button {
+  height: 40px;
+  border: none;
+  background-color: rgb(29, 29, 29);
+  padding: 0 1vmax;
+  width: 400px;
+  font: 300 1rem "roboto";
+  /* width: 30vw; */
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1vmax;
+}
+
+.page9-bottom {
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  margin: auto;
+  /* background-color: green; */
+}
+
+.page9-bottom-left {
+  height: 50vh;
+  width: 60vw;
+  display: flex;
+  /* background-color: blueviolet; */
+}
+
+.page9-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 20vw;
+  /* background-color: yellow; */
+}
+
+.page9-box h5 {
+  margin-bottom: 1vmax;
+  font: 500 1.2rem "roboto";
+}
+
+.page9-box li {
+  cursor: pointer;
+  font: 400 1.1rem "roboto";
+  list-style: none;
+  margin-bottom: 1vmax;
+}
+
+.page9-bottom-right {
+  height: 50vh;
+  width: 25vw;
+  /* background-color: #f7d275; */
+}
+
+.page9-top-right-image {
+  margin-left: 1vmax;
+  height: 35vh;
+  width: 7vw;
+  background-image: url(/images/killer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-bottom: 1vmax; */
+}
+
+.page9-bottom-right-top p {
+  margin-bottom: 1vmax;
+  font: 400 1.1rem "roboto";
+}
+
+.page9-bottom-right-top h2 {
+  font: 400 1.1rem "roboto";
+}
+
+.page9-bottom-right-top {
+  /* margin-top: 2vmax; */
+  display: flex;
+  text-align: right;
+  align-items: center;
+}
+
+.instagram {
+  height: 5vh;
+  /* background-color: aqua; */
+  width: 25vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.instagram i {
+  cursor: pointer;
+  margin-right: 0.5vmax;
+  font-size: 2.5rem;
+}
