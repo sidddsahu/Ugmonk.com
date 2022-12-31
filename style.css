@@ -28,6 +28,8 @@ transform: translateY(-200%);
   position: absolute;
   z-index: 10000000000000000;
   background-color: #fff;
+
+ /* background-color: red  ; */
 }
 
 .cart-section-main{
@@ -39,7 +41,7 @@ transform: translateY(-200%);
 
 .cart-section-main h5{
   font: 400 1.1rem "roboto";
-  margin-bottom: 3vmax;
+  margin-bottom: 2vmax;
 }
 
 
@@ -50,7 +52,7 @@ font: 600 1.5rem "leiko";
 .cart-section-main h1{
   font: 500 1.5rem "roboto";
   margin-left: 2vmax;
-  margin-bottom: 3vmax;
+  margin-bottom: 2vmax;
 
 }
 
@@ -89,20 +91,20 @@ font: 600 1.5rem "leiko";
 }
 
 .cart-section-main h2{
-  font: 300 1.2rem "roboto";
+  font: 300 1rem "roboto";
   margin-bottom: 1vmax;
 
 }
 
 .cart-section-main p{
-  font: 300 1rem "roboto";
+  font: 300 .9rem "roboto";
   text-align: center;
   margin-bottom: 3.5vmax;
 }
 
 .cart-section-main button{
-  width: 440px;
-  height: 45px;
+  width: 300px;
+  height: 40px;
   font: 300 1rem "roboto";
   border-radius: 25px;
   border: 1px solid black;
