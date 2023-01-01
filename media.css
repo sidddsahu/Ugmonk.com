@@ -319,8 +319,244 @@ height: 50vh;
   justify-content: center;
   align-items: center;
   margin-left: 25vw;
+}
+
+
+/* ----------================================Cart-section===================------------------------------ */
+
+.cart-section{
+  width: 70vw;
+}
+
+.cart-section-main h5{
+  font: 400 1rem "roboto";
+  text-align: center;
 
 }
+
+.cart-section-main  span{
+font: 600 1rem "leiko";
+}
+
+
+.cart-section-main h6{
+  font: 300 .9rem "roboto";
+  text-align: center;
+}
+.cart-section-image{
+  width: 65vw;
+}
+
+.cart-section-image .cart-image{
+  width: 32vw;
+  height: 28vh;
+
+}
+
+.cart-section-image .cart-image1{
+  width: 29vw;
+  height: 30;
+}
+
+.cart-section-main h2{
+  font: 300 .9rem "roboto";
+  text-align: center;
+}
+
+.cart-section-main button{
+  width: 200px;
+  height: 35px;
+  font: 300 .9rem "roboto";
+}
+
+/* -------=============================Analog-Css===========----------- */
+
+.container {
+  height: 115vh;
+}
+
+.container-main-top {
+  height: 65vh;
+}
+
+.container-main-top video {
+  height: 65vh;
+
+}
+
+.container-main-top-child {
+  width: 95vw;
+  margin: auto;
+  left: 10%;
+  top: 60%;
+}
+
+.container-main-top-child h1 {
+  margin-bottom: 1.5vmax;
+  font: 600 1.5rem "leiko";
+}
+
+.container-main-top-child p {
+  margin-bottom: 2vmax;
+  width: 80vw;
+}
+
+.container-main-bottom h1 {
+  font: 600 1.5rem "leiko";
+}
+
+.container-main-bottom p {
+  width: 90vw;
+}
+
+.container-last {
+
+}
+
+.container-last h3 {
+  display: none;
+  font: 400 1rem "gilroy";
+
+}
+
+.container-last img {
+width: 60px;
+}
+
+.container-2-child p {
+  width: 80vw;
+}
+
+.container-2 {
+  height: 120vh;
+}
+
+.container2-main {
+  height: 80vh;
+}
+
+.container2-main .work {
+  padding: 1.3vmax 2vmax;
+
+  top: 50%;
+  left: 25%;
+}
+
+.container2-main video {
+  height: 80vh;
+}
+
+.container3-main-left {
+  display: none; 
+}  
+
+.container3 {
+  height: 130vh;
+}
+
+.container3-main {
+  height: 90vh;
+  padding-left: 5vmax;
+
+}
+ 
+.container3-main-center {
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+}
+
+.container3-main-center-image {
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+}
+
+.container3-main-right {
+  display: none;
+}
+
+.container4-child p {
+  width: 80vw;
+}
+
+.container4-child h1 {
+  margin-top: 5vh;
+  font: 600 1.5rem "leiko";
+}
+
+.container4-main{
+padding-right: 5vmax;
+  width: 100vw;
+}
+
+.container4-main img{
+  height: 500px;
+}
+
+.container5-child h1{
+  font: 600 1.5rem "leiko";
+}
+
+.container5-child p{
+  width: 85vw;
+}
+
+.container5{
+  height: 270vh;
+}
+
+.container5-main{
+  height: 225vh;
+
+}
+
+.container5-top{
+  height: 75vh;
+  width: 90vw;
+  flex-direction: column;
+}
+
+.container5-top-left{
+  height: 30vh;
+  width: 80vw;
+}
+
+.container5-top-left p{
+  width: 85vw;
+}
+
+
+.container5-top-right{
+  height: 40vh;
+  width: 80vw;
+}
+
+
+.container5-top-right1{
+  height: 40vh;
+  width: 80vw;
+}
+
+
+.container5-top-right2{
+  height: 40vh;
+  width: 80vw;
+}
+
+.container6-child{
+  width: 80vw;
+}
+
+.container6-child h1{
+  font: 500 2rem "leiko";
+
+}
+
+.container6-main{
+  width: 90vw;
+}
+
 
 
 }

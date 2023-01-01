@@ -1,3 +1,15 @@
+body{
+  overflow-x: hidden;
+}
+
+#main-nav{
+  overflow-x: hidden;
+}
+
+.Analog-main{
+  overflow-x: hidden;
+}
+
 .container {
   height: 125vh;
   width: 100vw;
@@ -370,11 +382,9 @@
 }
 
 .container4-main{
-    /* margin-top: 2vmax; */
     height: 40vh;
     width: 60vw;
     margin: auto;
-    /* background-color: yellow; */
 }
 
 /* -----------------===========CAONTainer-5===============----------------------- */
@@ -464,8 +474,6 @@ text-align: center;
   background-size: cover;
  background-position: center;
 }
-
-
 
 .container5-top-right2{
   width: 40vw;
