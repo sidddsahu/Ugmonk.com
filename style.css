@@ -230,7 +230,7 @@ font-weight: 400;
 }
 
 .nav-one {
-  right: -900%;
+  right: -730%;
   top: 100%;
   display: flex;
   position: absolute;
@@ -326,7 +326,7 @@ font-weight: 400;
 }
 
 .nav-two {
-  right: -720%;
+  right: -570%;
   top: 100%;
   display: flex;
   position: absolute;
@@ -338,7 +338,6 @@ font-weight: 400;
   padding: 1vmax;
   background-color: #fff;
 }
-
 .navbar3 {
   padding-left: 2vmax;
   /* background-color: green; */
@@ -407,7 +406,7 @@ font-weight: 400;
 }
 
 .nav-three {
-  right: -706%;
+  right: -540%;
   top: 100%;
   display: flex;
   position: absolute;
