@@ -222,6 +222,7 @@ font-weight: 400;
 /* ---------------------------------------------Nav.1----------------------------------- */
 
 .analog {
+  z-index: 100;
   margin-top: 2vmax;
   /* background-color: red; */
   height: 7vh;
@@ -234,6 +235,7 @@ font-weight: 400;
   top: 100%;
   display: flex;
   position: absolute;
+  z-index: 1000;
   margin-left: 10vw;
   box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
   /* transform: translateY(-140%); */
@@ -334,6 +336,7 @@ font-weight: 400;
   box-shadow: 0px 0px 15px 0px rgb(135, 134, 134);
   height: 55vh;
   width: 68vw;
+  z-index: 100oo !important;
   margin: auto;
   padding: 1vmax;
   background-color: #fff;
